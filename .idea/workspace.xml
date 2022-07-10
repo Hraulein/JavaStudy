@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87428eb5-f45d-415f-9c33-d0dbe8a9f72b" name="Changes" comment="test push github">
+    <list default="true" id="87428eb5-f45d-415f-9c33-d0dbe8a9f72b" name="Changes" comment="test push github intel 4590">
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/day2/IdentifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloGithub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloGithub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +47,94 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "H:/DEV.ENV/JDK",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "shared-indexes"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.StringTest2">
+    <configuration name="StringTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.StringTest2" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.StringTypeTest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableRulesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.VariableRulesTest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.VariableTest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.VariableTypeTest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringTest2" />
+        <item itemvalue="Application.StringTypeTest" />
+        <item itemvalue="Application.VariableRulesTest" />
+        <item itemvalue="Application.VariableTypeTest" />
+        <item itemvalue="Application.VariableTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +146,16 @@
       <workItem from="1656947441262" duration="1420000" />
       <workItem from="1657020684296" duration="2126000" />
       <workItem from="1657431178729" duration="182000" />
+      <workItem from="1657431405806" duration="495000" />
+      <workItem from="1657432319538" duration="789000" />
+      <workItem from="1657433137605" duration="195000" />
+      <workItem from="1657433348043" duration="199000" />
+      <workItem from="1657433585585" duration="779000" />
+      <workItem from="1657434571728" duration="76000" />
+      <workItem from="1657434661236" duration="477000" />
+      <workItem from="1657435477684" duration="320000" />
+      <workItem from="1657435825829" duration="789000" />
+      <workItem from="1657436661664" duration="14046000" />
     </task>
     <task id="LOCAL-00001" summary="test push github">
       <created>1657022422533</created>
@@ -71,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657022422533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test push github intel 4590">
+      <created>1657431480245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657431480245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test push github intel 4590">
+      <created>1657431601478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657431601478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +197,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push github" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push github" />
+    <MESSAGE value="test push github intel 4590" />
+    <option name="LAST_COMMIT_MESSAGE" value="test push github intel 4590" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
