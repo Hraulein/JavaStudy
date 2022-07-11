@@ -210,6 +210,20 @@ class StringTest2{
     }
 }
 
+class IntToString{
+    public static void main(String[] args) {
+        // String str1 = 123; // error
+        String str1 = 123 + "";
+        System.out.println(str1);
+        // int num1 = str1; // error
+        // int num1 = (int)str1; /error
+
+        // string to int function ↓
+        // int num1 = Integer.parseInt(str1);
+
+    }
+}
+
 
 
 
