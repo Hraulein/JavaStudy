@@ -1,4 +1,4 @@
-package com.hraulein.day3;
+package com.hraulein.javastudy.day3;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.sql.SQLOutput;

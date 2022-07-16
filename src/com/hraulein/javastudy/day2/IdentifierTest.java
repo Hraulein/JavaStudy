@@ -1,4 +1,4 @@
-package com.hraulein.day2;
+package com.hraulein.javastudy.day2;
 
 /*
 标识符命名规范:
