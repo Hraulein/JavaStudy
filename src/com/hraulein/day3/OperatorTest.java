@@ -1,5 +1,6 @@
 package com.hraulein.day3;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.sql.SQLOutput;
 
 public class OperatorTest {
@@ -12,8 +13,58 @@ public class OperatorTest {
         ComparisonOperator();
         LogicalOperator();
         BitOperator();
+        IfElseTest();
+    }
+
+    /*
+     * 程序流程控制
+     * 0. 顺序结构
+     * 1. 分支结构
+     *   1.1 if-else
+     *     1.1.1 if语句
+     *     1.1.2 if-else语句
+     *     1.1.3 if-else if ... else 语句 __最后一个else语句(最稳定的备胎)
+     *   1.2 switch-case
+     * 2. 循环结构
+     */
+
+    private static void IfElseTest() {
+        /*
+        * if (){ }
+        */
+        int heartBeats = 79;
+        if (heartBeats < 60 || heartBeats > 100){
+            System.out.println("为了您的身体健康, 建议做进一步检查");
+        }
+        System.out.println("Everything lookup is ok.");
+
+        /*
+        * if (){} else {}
+        */
+        int age = 23;
+        if (age < 18){
+            System.out.println("未成年, 禁止访问");
+        } else {
+            System.out.println("成年人, 不限访问");
+        }
+
+        /*
+        * if (){} else if (){} else if (){} ... else {}
+        */
+        if (age < 0){
+            System.out.println("输入非法");
+        } else if (age < 18) {
+            System.out.println("未成年, 禁止访问");
+        } else if (age < 35) {
+            System.out.println("成年人, 不限访问");
+        } else if (age < 60) {
+            System.out.println("老当益壮");
+        } else {
+            System.out.printf("欢迎来到备胎的世界");
+        }
 
     }
+
     // 位运算符, 用的很少
     // 直接对整数的二进制进行的运算
     // << 左移   >> 右移
@@ -34,7 +85,93 @@ public class OperatorTest {
         System.out.println((2 << 3));
         System.out.println((8 << 1));
 
+        int m = 12;
+        int n = 5;
+        int j = 6;
+        System.out.println("m & n: " +( m & n));
+        System.out.println("m | n: " +( m | n));
+        System.out.println("m ^ n: " +( m ^ n));
+        System.out.println("~6 = " + ~6);
+
+        // 练习: 交换两个变量的值
+        int num1 = 10;
+        int num2 = 20;
+        // 方法一: 定义临时变量
+        // 推荐使用
+        int temp  = num1;
+        num1 = num2;
+        num2 = temp;
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
+
+        // 方法二:
+        // 好处: 不用定义临时变量
+        // 弊端: ① 相加操作可能超出存储范围 ② 有局限性, 只能适用于数值类型
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
+
+        // 方式三: 使用位运算符 ^
+        // 弊端: 有局限性, 只能适用于数值类型
+        // 公式: m = k ^ n = (m ^ n) ^ n
+        num1 = (num1 ^ num2);
+        num2 = num1 ^ num2;
+        num1 = num1 ^ num2;
+
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
+
+        /*
+        * 三元运算符: (条件表达式) ? 表达式1 : 表达式2
+        * 简化的if,else语句
+        * 条件表达式的结果为boolean类型
+        * 表达式为true, 执行表达式1, 否则执行表达式2
+        * 不要求表达式1,2的类型为一致, 但要可以统一为一个类型. (建议为一个类型)
+        * 三元运算符可以嵌套使用
+        *
+        * 凡是可以使用三元运算符的地方, 都可以改写为if...else语句
+        * 反之,不成立. if-else 不一定可以转换为三元运算符
+        * 如果程序既可以用三元运算符,又可以使用if-else语句, 优先选择三元运算符(原因: 简洁,执行效率高)
+        */
+        // 获取两个整数的较大值
+        int m1 = 12;
+        int n1 = 5;
+        int res = (m > n) ? m : n;
+        System.out.println(res);
+        String res1 = (m > n) ? "m大" : ((m == n) ? "m与n相等" : "n大");
+        System.out.println(res1);
+        // 获取三个整数的最大值
+        int i1 = 12;
+        int i2 = 30;
+        int i3 = -29;
+        int max1 = (i1 > i2) ? i1 : i2;
+        int max2 = (max1 > i3) ? max1 : i3;
+        System.out.println("三个最大值为: " + max2);
+        // 不建议使用, 代码可读性差. 代码执行性能并不会加快
+        int max3 = (((i1 > i2) ? i1 : i2) > i3) ? ((i1 > i2) ? i1 : i2) : i3;
+        System.out.println("三个最大值为: " + max3);
+
+        // 改写为if-else
+        if (m > n){
+            System.out.println(m);
+        }else {
+            System.out.println(n);
+        }
+
+        /*
+        * 运算符的优先级
+        * 小公司和大公司的差异
+        * 大公司的好处
+        * 小公司的好处
+        * 大公司会比较看重学历, 愿意培养, 并且可以靠福利留住职工, 工作分的细, 工作比较片面
+        * 小公司比较务实, 比较看重能力, 福利可能不是很好, 但东西学的比较全面
+        * 刚毕业出身: 学历
+        * 工作后出身: 前公司背景, 做过的项目
+        */
     }
+
     /*
     * 逻辑运算符 >> 只能适用于boolean类型变量
     * & 逻辑与
