@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87428eb5-f45d-415f-9c33-d0dbe8a9f72b" name="Changes" comment="test push github intel 4590">
-      <change afterPath="$PROJECT_DIR$/src/com/hraulein/day2/IdentifierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="87428eb5-f45d-415f-9c33-d0dbe8a9f72b" name="Changes" comment="day4 复习">
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/CycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/DoWhileCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/ForCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/NestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/NineNineTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hraulein/javastudy/day5/WhileCycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloGithub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloGithub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -42,30 +47,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/DEV.ENV/JDK",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/DEV.ENV/JDK&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StringTest2">
-    <configuration name="StringTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.StringTest2" />
+}</component>
+  <component name="RunManager" selected="Application.PrimeNumber">
+    <configuration name="CycleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.javastudy.day5.CycleTest" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="PATTERN" value="com.hraulein.javastudy.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.StringTypeTest" />
+    <configuration name="DoWhileCycleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.javastudy.day5.DoWhileCycleTest" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="PATTERN" value="com.hraulein.javastudy.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableRulesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.VariableRulesTest" />
+    <configuration name="NestedLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.javastudy.day5.NestedLoop" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="PATTERN" value="com.hraulein.javastudy.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.VariableTest" />
+    <configuration name="NineNineTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.javastudy.day5.NineNineTable" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="PATTERN" value="com.hraulein.javastudy.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hraulein.day2.VariableTypeTest" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hraulein.javastudy.day5.PrimeNumber" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hraulein.day2.*" />
+          <option name="PATTERN" value="com.hraulein.javastudy.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTest2" />
-        <item itemvalue="Application.StringTypeTest" />
-        <item itemvalue="Application.VariableRulesTest" />
-        <item itemvalue="Application.VariableTypeTest" />
-        <item itemvalue="Application.VariableTest" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.NineNineTable" />
+        <item itemvalue="Application.NestedLoop" />
+        <item itemvalue="Application.CycleTest" />
+        <item itemvalue="Application.DoWhileCycleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +162,16 @@
       <workItem from="1657435477684" duration="320000" />
       <workItem from="1657435825829" duration="789000" />
       <workItem from="1657436661664" duration="14046000" />
+      <workItem from="1657547779673" duration="6395000" />
+      <workItem from="1657554463933" duration="150000" />
+      <workItem from="1657633525728" duration="5427000" />
+      <workItem from="1657803084698" duration="8102000" />
+      <workItem from="1657976585540" duration="6645000" />
+      <workItem from="1657983315297" duration="8000" />
+      <workItem from="1658148827213" duration="7867000" />
+      <workItem from="1658405888164" duration="9861000" />
+      <workItem from="1658756558844" duration="5741000" />
+      <workItem from="1658839953901" duration="9459000" />
     </task>
     <task id="LOCAL-00001" summary="test push github">
       <created>1657022422533</created>
@@ -178,7 +194,105 @@
       <option name="project" value="LOCAL" />
       <updated>1657431601478</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="进制相关">
+      <created>1657553583144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657553583144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add ignored file test">
+      <created>1657554199127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657554199127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="算术运算符">
+      <created>1657639581504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657639581504</updated>
+    </task>
+    <task id="LOCAL-00007" summary="算术运算符2">
+      <created>1657811134309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657811134309</updated>
+    </task>
+    <task id="LOCAL-00008" summary="算术运算符3">
+      <created>1657982793380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657982793380</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed packages names">
+      <created>1657983063120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657983063120</updated>
+    </task>
+    <task id="LOCAL-00010" summary="day3 复习">
+      <created>1658152971881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658152971881</updated>
+    </task>
+    <task id="LOCAL-00011" summary="使用 Scanner从控制台获取键盘输入数据">
+      <created>1658156660620</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658156660620</updated>
+    </task>
+    <task id="LOCAL-00012" summary="idea upgrade files">
+      <created>1658156688664</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658156688664</updated>
+    </task>
+    <task id="LOCAL-00013" summary="if-else 语句的两个小题目">
+      <created>1658156723436</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658156723436</updated>
+    </task>
+    <task id="LOCAL-00014" summary="if-else 语句的四个小题目">
+      <created>1658415667249</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658415667249</updated>
+    </task>
+    <task id="LOCAL-00015" summary="switc-case 语句使用以及一些题目">
+      <created>1658415725353</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658415725353</updated>
+    </task>
+    <task id="LOCAL-00016" summary="关于 for 循环">
+      <created>1658762234865</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658762234865</updated>
+    </task>
+    <task id="LOCAL-00017" summary="day4 复习">
+      <created>1658762269866</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658762269866</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +312,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push github" />
     <MESSAGE value="test push github intel 4590" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push github intel 4590" />
+    <MESSAGE value="进制相关" />
+    <MESSAGE value="add ignored file test" />
+    <MESSAGE value="算术运算符" />
+    <MESSAGE value="算术运算符2" />
+    <MESSAGE value="算术运算符3" />
+    <MESSAGE value="changed packages names" />
+    <MESSAGE value="day3 复习" />
+    <MESSAGE value="使用 Scanner从控制台获取键盘输入数据" />
+    <MESSAGE value="idea upgrade files" />
+    <MESSAGE value="if-else 语句的两个小题目" />
+    <MESSAGE value="if-else 语句的四个小题目" />
+    <MESSAGE value="switc-case 语句使用以及一些题目" />
+    <MESSAGE value="关于 for 循环" />
+    <MESSAGE value="day4 复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4 复习" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
