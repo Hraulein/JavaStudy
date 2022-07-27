@@ -1,4 +1,4 @@
-package com.hraulein.javastudy.day5.project1;
+package com.hraulein.javastudy.project1;
 
 import java.util.Scanner;
 /**
